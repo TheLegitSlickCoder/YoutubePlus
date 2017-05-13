@@ -1,0 +1,71 @@
+<!-- Youtube+ HTML Source Code -->
+<!-- Written By: SlickCoder (Hrishikesh Bagalkote) -->
+
+<!doctype html>
+<title>Youtube+</title>
+<meta charset="utf-8">
+
+<!-- Script Links: -->
+<script src="script.js"></script>
+<script src="youtubeplusframework.js"></script>
+
+<!-- CSS: -->
+<style>
+    body {
+        background-color: rgb(100, 100, 100);
+    }
+    
+    h1, h2, h3, h4, h5, h6, p, li {
+        color: white;
+        font-family: arial;
+        text-align: center;
+    }
+    
+    #title {
+        color: rgb(255, 50, 50);
+    }
+    
+    div {
+        text-align: center;
+    }
+    
+    input, textarea {
+        font-family: arial;
+        color: white;
+        background-color: rgb(80, 80, 80);
+        font-size: 22px;
+        border: none;
+        width: 430px;
+    }
+    
+    button {
+        font-size: 22px;
+        color: white;
+        background-color: rgb(80, 80, 80);
+        border: none;
+    }
+    
+    button:hover {
+        color: rgb(255, 50, 50);
+    }
+</style>
+
+<!-- HTML: -->
+<html>
+    <!-- Title: -->
+    <h1 id="title">Youtube+</h1>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!-- Content -->
+    <div id="content">
+        <input id="searchInput", placeholder="Search:"></input>
+        <br>
+        <br>
+        <button onclick="searchYoutube()">Search Youtube</button>
+        <button onclick="viewChannel()">View Channel</button>
+    </div>
+</html>
