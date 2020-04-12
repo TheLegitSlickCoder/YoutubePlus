@@ -1,6 +1,3 @@
-//Youtube+ JavaScript Source Code:
-//Written By: SlickCoder (Hrishikesh Bagalkote)
-
 function getElementVar(x) {
     var elementVar = document.getElementById(x);
     return elementVar;
