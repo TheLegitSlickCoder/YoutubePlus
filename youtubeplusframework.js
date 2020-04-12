@@ -1,6 +1,3 @@
-//Youtube+ JavaScript Framework:
-//Written By: SlickCoder (Hrishikesh Bagalkote)
-
 function framework_search(x) {
     window.location = "https://www.youtube.com/results?search_query=" + x;
 }
